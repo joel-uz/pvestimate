@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans&family=Source+Sans+Pro&display=swap');
+
+
+.head{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 450%;
+    margin-bottom: 2rem;
+    color: #59e4a8;
+}
+.extra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.text{
+    float: left;
+    width: 50%;
+    padding: 2rem;
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+.solar-pic{
+    float: right;
+    width: 50%;
+}
+.form-main{
+    padding: 3rem;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub-head{
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 300%;
+    margin-bottom: 2rem;
+    color: #59e4a8;
+}
+.card{
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    width: max-content+ 50px;
+}
+.element{
+    font-family: "JetBrains Mono";
+    font-weight: 100;
+    font-size: 12px;
+}
+.div-visible{
+    display: block;
+    margin: 5% auto;
+    width: 50%;
+    height: max-content;
+    background-color: #59e4a8;
+    border: 2px solid lightblue;
+}
+.text-area{
+    width: 100%;
+}
+.specs{
+    text-align: left;
+    font-family: "Source Sans Pro";
+    color: white;
+    padding: 5%;
+    font-size: 120%;
+}
+.not-visible{
+    display: none;
+}
+
+
+@media screen and (max-width: 926px) {
+    .extra{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .solar-pic{
+        width: 80%;
+        height: auto;
+    }
+    .text{
+        width: 80%;
+        text-align: center;
+    }
+    .div-visible{
+        width: 90%;
+    }
+}
